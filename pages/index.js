@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={style.title}>Hasan ile Date</h1>
+        <h1>Hasan ile Date</h1>
       </main>
     </div>
   )
