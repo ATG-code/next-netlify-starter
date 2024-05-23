@@ -10,8 +10,21 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className='main-container'>
-          <h1 className='title'>Hasan ile Date</h1>
+        <div class="bouncing-blobs-container">
+          <div class="bouncing-blobs-glass"></div>
+          <div class="bouncing-blobs">
+            <div class="bouncing-blob bouncing-blob--blue"></div>
+            <div class="bouncing-blob bouncing-blob--blue"></div>
+            <div class="bouncing-blob bouncing-blob--blue"></div>
+            <div class="bouncing-blob bouncing-blob--white"></div>
+            <div class="bouncing-blob bouncing-blob--purple"></div>
+            <div class="bouncing-blob bouncing-blob--purple"></div>
+            <div class="bouncing-blob bouncing-blob--pink"></div>
+          </div>
+        </div>
+        <div class="hero">
+          <h2>Hasan Seninle Bir Yaşam Sonsuz Bir Roman</h2>
+          <p>It works by adding blurred blobs that bounce off the screen edge</p>
         </div>
       </main>
     </div>
